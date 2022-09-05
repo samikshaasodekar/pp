@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+        /* Main styles */
+         .text {
+             fill: none;
+             stroke-width: 3;
+             stroke-linejoin: round;
+             stroke-dasharray: 70 330;
+             stroke-dashoffset: 0;
+             -webkit-animation: stroke 6s infinite linear;
+             animation: stroke 6s infinite linear;
+        }
+         .text:nth-child(5n + 1) {
+             stroke: #f2385a;
+             -webkit-animation-delay: -1.2s;
+             animation-delay: -1.2s;
+        }
+         .text:nth-child(5n + 2) {
+             stroke: #f5a503;
+             -webkit-animation-delay: -2.4s;
+             animation-delay: -2.4s;
+        }
+         .text:nth-child(5n + 3) {
+             stroke: #e9f1df;
+             -webkit-animation-delay: -3.6s;
+             animation-delay: -3.6s;
+        }
+         .text:nth-child(5n + 4) {
+             stroke: #56d9cd;
+             -webkit-animation-delay: -4.8s;
+             animation-delay: -4.8s;
+        }
+         .text:nth-child(5n + 5) {
+             stroke: #3aa1bf;
+             -webkit-animation-delay: -6s;
+             animation-delay: -6s;
+        }
+         @-webkit-keyframes stroke {
+             100% {
+                 stroke-dashoffset: -400;
+            }
+        }
+         @keyframes stroke {
+             100% {
+                 stroke-dashoffset: -400;
+            }
+        }
+        /* Other styles */
+         body {
+             background: #000;
+             background-size: 0.2em 100%;
+             font: 5em Open Sans, Impact;
+             text-transform: uppercase;
+             margin: 0;
+        }
+         svg {
+             position: absolute;
+             
+        }
+        .main{
+            color: #fff;
+            text-align: center;
+            padding-top: 500px;
+            font-size: 30px;
+        }
+        .primary{
+            color: #fff;
+            font-size: 25px;
+            text-align: center;
+        }
+        .primary1{
+            color: rgb(209, 59, 59);
+            font-size: 35px;
+            text-align: center;
+        }
+        .primary2{
+            color: rgb(209, 59, 59);
+            font-size: 35px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <svg viewBox="0 0 600 300">
+        <!-- Symbol-->
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="50%" dy=".35em">I❤️U Pranjal</text>
+        </symbol>
+        <!-- Duplicate symbols-->
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+        <use class="text" xlink:href="#s-text"></use>
+      </svg>
+
+    <h6 class="main">
+        By Soham Asodekar
+    </h6>
+    <p class="primary2">
+        DEAR PRANJAL
+    </p>
+
+    <p class="primary">
+         
+        I am very happy to have a girl "friend" like you who can help to overcome many different situations. I have chosen you not only on the basis of your character, behaviour, and attitude. But I have chosen you on the basis of how a girl can help to achieve my goals and can live happily with me. I will promise I will never disobey your goals and I will help you in any situations. You are my first love, and I can't wait more. I don't look nice. People think I can't do anything in life, so I want to do the best thing in life and show them who I am. I don't look beautiful, and much more, but I have the qualities that others don't have.
+    </p>
+    <p class="primary1">
+        I Love YOU > 3000
+    </p>
+</body>
+</html>
